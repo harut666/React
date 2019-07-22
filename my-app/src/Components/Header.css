@@ -1,0 +1,9 @@
+.header img {
+    margin-top: 10px;
+    max-width: 100px;
+}
+
+.header {
+    grid-area: h;
+    background-color: gainsboro;
+}
