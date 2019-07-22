@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Header'
+import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar'
-import Profile from './Components/Profile'
+import Profile from './Components/Profile/Profile'
 const App = () => {
     return (
         <div className='app-wrapper'>
