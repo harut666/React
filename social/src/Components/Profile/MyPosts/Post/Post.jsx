@@ -7,7 +7,10 @@ const Post = (props) => {
     <div className={s.item}>
                     <img src='https://clck.ru/HDS84'/>
                     {props.message}
+                    <br/>
+                    <span>Like </span> {props.age}
                     </div>
+
     )
 
 }
