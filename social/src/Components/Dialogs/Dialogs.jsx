@@ -21,19 +21,32 @@ const Message = (props)=>{ /*инкапсуляция сообщений  */
 }
 
 const Dialogs = (props) =>{
+
+    let dialogs = [
+        {id:1, name: 'Kamo'},
+        {id:2, name: 'Arut'},
+        {id:3, name: 'Karine'},
+        {id:4, name: 'Hovo'},
+        {id:5, name: 'Arman'}
+        ]
+
+    let messages = [
+        {id:1, message: 'hi'},
+        {id:2, message: 'hello'},
+        {id:3, message: 'bye'},
+
+    ]
+
+    let dialogsElements = dialogs.map(d => <DialogItem name={d.name} id={d.id}/>);
+    let messagesElements = messages.map(m=> <Message message={m.message} id={m.id}/>);
+
     return(
         <div className={s.dialogs}>
             <div className={s.dialogsItem}>
-                <DialogItem name='Kamo' id='1'/>
-                <DialogItem name='Arut' id='2'/>
-                <DialogItem name='Karine' id='3'/>
-                <DialogItem name='Hovo' id='4'/>
-                <DialogItem name='Arman' id='5'/>
-            </div>
+                {dialogsElements}
+                </div>
             <div className={s.messages}>
-                <Message message='hi'/>
-                <Message message='hello'/>
-                <Message message='bye'/>
+                {messagesElements}
             </div>
         </div>
 

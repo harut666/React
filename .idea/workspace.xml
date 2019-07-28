@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e38a8e24-cb86-423d-85ed-657d9e81b61e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/social/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/Components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,6 +33,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Post.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/Post.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Navbar.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/social/src/Components/Navbar/Navbar.jsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,8 +60,30 @@
       <file leaf-file-name="Dialogs.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="880">
+              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#134#328#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dialogs.module.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPosts.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -61,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dialogs.module.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.module.css">
+      <file leaf-file-name="MyPosts.module.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="110">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -88,6 +118,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dialogs</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -102,21 +137,21 @@
         <option value="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/like.jsx.js" />
         <option value="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/like.jsx" />
         <option value="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/like.jsx" />
-        <option value="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/Post.jsx" />
         <option value="$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.jsx.js" />
         <option value="$PROJECT_DIR$/social/src/Components/Profile/Profile.module.css" />
         <option value="$PROJECT_DIR$/social/src/Components/Navbar/Navbar.jsx" />
         <option value="$PROJECT_DIR$/social/src/Components/Navbar/Navbar.module.css" />
         <option value="$PROJECT_DIR$/social/src/App.js" />
         <option value="$PROJECT_DIR$/social/src/Components/Profile/ProfileInfo/Profile.jsx" />
-        <option value="$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.jsx" />
         <option value="$PROJECT_DIR$/social/src/Components/Profile/Profile.jsx" />
         <option value="$PROJECT_DIR$/social/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" />
         <option value="$PROJECT_DIR$/social/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" />
         <option value="$PROJECT_DIR$/social/src/App.css" />
-        <option value="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.jsx" />
-        <option value="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.module.css" />
+        <option value="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/Post.jsx" />
         <option value="$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.module.css" />
+        <option value="$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.jsx" />
+        <option value="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.module.css" />
+        <option value="$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.jsx" />
       </list>
     </option>
   </component>
@@ -243,7 +278,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -282,13 +317,13 @@
       <option name="presentableId" value="Default" />
       <updated>1563806118950</updated>
       <workItem from="1563806125684" duration="6520000" />
-      <workItem from="1563816841026" duration="29475000" />
+      <workItem from="1563816841026" duration="39860000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35995000" />
+    <option name="totallyTimeSpent" value="46380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="938" y="22" width="982" height="1178" extended-state="0" />
@@ -305,7 +340,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32969216" />
       <window_info anchor="bottom" id="RNConsole" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39920557" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -449,40 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/Post.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/Post.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/ProfileInfo/ProfileInfo.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -511,6 +512,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/social/src/Components/Navbar/Navbar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -521,20 +529,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="880">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#134#328#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/MyPosts.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/social/src/Components/Dialogs/Dialogs.module.css">
+    <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/Post.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="88">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/src/Components/Profile/MyPosts/Post/Post.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

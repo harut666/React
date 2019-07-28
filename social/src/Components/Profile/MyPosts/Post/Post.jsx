@@ -5,10 +5,10 @@ import s from './Post.module.css';
 const Post = (props) => {
     return (
     <div className={s.item}>
-                    <img src='https://clck.ru/HDS84'/>
+                    <img src='https://clck.ru/HFd5C'/>
                     {props.message}
                     <br/>
-                    <span>Like </span> {props.age}
+                    <span>Like </span> {props.likesCount}
                     </div>
 
     )
